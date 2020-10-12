@@ -67,7 +67,7 @@ Classnames::from(
 You may also deduplicate the classlist using `dedupefrom`:
 
 ```php
-Classnames::from('a btn b btn c');
+Classnames::dedupeFrom('a btn b btn c');
 // => 'a btn b c'
 ```
 
