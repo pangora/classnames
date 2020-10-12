@@ -1,6 +1,8 @@
 # Classnames for PHP
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/pangora/classnames.svg?style=flat-square)](https://packagist.org/packages/pangora/classnames)
 [![Build Status](https://img.shields.io/github/workflow/status/spatie/enum/run-tests?label=tests&style=flat-square)](https://github.com/spatie/enum/actions?query=workflow%3Arun-tests)
+[![Total Downloads](https://img.shields.io/packagist/dt/pangora/classnames.svg?style=flat-square)](https://packagist.org/packages/pangora/classnames)
 
 This package replicates the functionality of the popular JS package [JedWatson/classnames](https://github.com/JedWatson/classnames), allowing you to easily build HTML classlists using strings, stringable objects and arrays with conditions, like this:
 
