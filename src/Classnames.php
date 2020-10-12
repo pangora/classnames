@@ -48,7 +48,7 @@ class Classnames
 
     private function formatAsString(): string
     {
-        return $this->removeConsecutiveWhitespaces(
+        return $this->replaceConsecutiveSpaces(
             trim(implode(' ', $this->classlist))
         );
     }
@@ -58,7 +58,7 @@ class Classnames
         $this->classlist = array_unique($this->classlist, SORT_STRING);
     }
 
-    private function removeConsecutiveWhitespaces(string $value): string
+    private function replaceConsecutiveSpaces(string $value): string
     {
         return preg_replace("/\s+/u", " ", $value);
     }

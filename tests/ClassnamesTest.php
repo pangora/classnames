@@ -5,8 +5,6 @@ namespace Pangora\Classnames\Tests;
 use Pangora\Classnames\Classnames;
 use PHPUnit\Framework\TestCase;
 
-use function Pangora\Classnames\cn;
-
 class ClassnameTest extends TestCase
 {
     /** @test */
