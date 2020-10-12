@@ -46,7 +46,7 @@ Classnames::from('btn btn-primary');
 Classnames::from('btn', 'btn-primary');
 // => 'btn btn-primary'
 
-Classnames::from('   lost of ', ' space  ');
+Classnames::from('   lots of ', ' space  ');
 // => 'lots of space'
 
 Classnames::from('btn', ['btn-primary']);
