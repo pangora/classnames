@@ -1,3 +1,5 @@
+<p align="center"><img src="/art/banner.png" alt="Classnames banner"></p>
+
 # Classnames for PHP
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/pangora/classnames.svg?style=flat-square)](https://packagist.org/packages/pangora/classnames)
