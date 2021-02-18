@@ -87,11 +87,9 @@ class Classnames
         }
 
         foreach($array as $classes => $condition) {
-            if ($condition === false) {
-                return;
-            }
-
-            $this->addIfStringable($classes);
+            if ($condition) {
+                $this->addIfStringable($classes);
+            }            
         }
     }
 

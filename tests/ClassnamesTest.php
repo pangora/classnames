@@ -103,6 +103,17 @@ class ClassnameTest extends TestCase
         $classes = Classnames::dedupeFrom('a duplicate b duplicate c');
         $this->assertSame('a duplicate b c', $classes);
     }
+
+    /** @test */
+    public function it_does_not_bail_on_first_falsy_condition()
+    {
+        $classes = Classnames::from([
+            'foo' => false,
+            'bar' => true,
+        ]);
+
+        $this->assertSame('bar', $classes);
+    }
 }
 
 class StringableClass
